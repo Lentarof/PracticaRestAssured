@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "firstName": "Paul",
+      "lastName": "Sil",
+      "subjectId": 1,
+      "id": 1
+    },
+    {
+      "firstName": "Solange",
+      "lastName": "Chop",
+      "subjectId": 2,
+      "id": 2
+    },
+    {
+      "firstName": "Berth",
+      "lastName": "Thompson",
+      "subjectId": 1,
+      "id": 3
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "name": "Cybersecurity"
+    },
+    {
+      "id": 2,
+      "name": "DevOps"
+    }
+  ]
+}
