@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-08T03:36:36 BOT" name="Default suite" finished-at="2020-11-08T03:36:38 BOT" duration-ms="2187">
+    <groups>
+    </groups>
+    <test started-at="2020-11-08T03:36:36 BOT" name="Default test" finished-at="2020-11-08T03:36:38 BOT" duration-ms="2187">
+      <class name="Test06DELETE">
+        <test-method signature="Test01forDelete()[pri:0, instance:Test06DELETE@45ca843]" started-at="2020-11-08T03:36:36 BOT" name="Test01forDelete" finished-at="2020-11-08T03:36:38 BOT" duration-ms="2080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01forDelete -->
+        <test-method signature="Test02forDelete()[pri:0, instance:Test06DELETE@45ca843]" started-at="2020-11-08T03:36:38 BOT" name="Test02forDelete" finished-at="2020-11-08T03:36:38 BOT" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02forDelete -->
+      </class> <!-- Test06DELETE -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
