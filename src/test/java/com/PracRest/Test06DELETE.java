@@ -1,3 +1,4 @@
+package com.PracRest;
 
 import static io.restassured.RestAssured.*;
 import org.testng.annotations.Test;
@@ -14,7 +15,7 @@ public class Test06DELETE {
 			.statusCode(204)
 			.log().all();
 	}
-	//Test de una API Dummy local del archivo db 
+	//Test de una API Dummy local del archivo db.json 
 	@Test
 	public void  Test02forDelete() {
 		

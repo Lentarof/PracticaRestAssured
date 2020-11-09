@@ -1,3 +1,4 @@
+package com.PracRest;
 
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
@@ -17,7 +18,7 @@ public class Test02Get {
 		//log all sirve para ver todo el contenido de como llega el JSON
 		//.log().all();
 	}
-	//Test de una API Dummy local del archivo db
+	//Test de una API Dummy local del archivo db.json
 	@Test
 	public void test02forGet() {
 		
@@ -29,7 +30,7 @@ public class Test02Get {
 			.statusCode(200)
 			.log().all();
 	}
-	//Test de una API Dummy local del archivo db
+	//Test de una API Dummy local del archivo db.json
 	@Test
 	public void test03forGet() {
 		

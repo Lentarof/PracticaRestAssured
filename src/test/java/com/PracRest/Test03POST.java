@@ -1,3 +1,4 @@
+package com.PracRest;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -46,7 +47,7 @@ public class Test03POST {
 	//System.out.println(given().header("Content-type", "application/json"));
 	//System.out.println(given().body(request.toJSONString()).when().post("https://reqres.in/api/users").then().statusCode(201));
 	}
-	//Test de una API Dummy local del archivo db
+	//Test de una API Dummy local del archivo db.json
 	@Test
 	public void test02forPost() {
 		

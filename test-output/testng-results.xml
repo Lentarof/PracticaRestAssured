@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-08T03:36:36 BOT" name="Default suite" finished-at="2020-11-08T03:36:38 BOT" duration-ms="2187">
+  <suite started-at="2020-11-09T16:56:19 BOT" name="Default suite" finished-at="2020-11-09T16:56:22 BOT" duration-ms="2303">
     <groups>
     </groups>
-    <test started-at="2020-11-08T03:36:36 BOT" name="Default test" finished-at="2020-11-08T03:36:38 BOT" duration-ms="2187">
-      <class name="Test06DELETE">
-        <test-method signature="Test01forDelete()[pri:0, instance:Test06DELETE@45ca843]" started-at="2020-11-08T03:36:36 BOT" name="Test01forDelete" finished-at="2020-11-08T03:36:38 BOT" duration-ms="2080" status="PASS">
+    <test started-at="2020-11-09T16:56:19 BOT" name="Default test" finished-at="2020-11-09T16:56:22 BOT" duration-ms="2303">
+      <class name="com.PracRest.Test01Get">
+        <test-method signature="test_01()[pri:0, instance:com.PracRest.Test01Get@c0c2f8d]" started-at="2020-11-09T16:56:19 BOT" name="test_01" finished-at="2020-11-09T16:56:21 BOT" duration-ms="1605" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test01forDelete -->
-        <test-method signature="Test02forDelete()[pri:0, instance:Test06DELETE@45ca843]" started-at="2020-11-08T03:36:38 BOT" name="Test02forDelete" finished-at="2020-11-08T03:36:38 BOT" duration-ms="73" status="PASS">
+        </test-method> <!-- test_01 -->
+        <test-method signature="test_02()[pri:0, instance:com.PracRest.Test01Get@c0c2f8d]" started-at="2020-11-09T16:56:21 BOT" name="test_02" finished-at="2020-11-09T16:56:22 BOT" duration-ms="652" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test02forDelete -->
-      </class> <!-- Test06DELETE -->
+        </test-method> <!-- test_02 -->
+      </class> <!-- com.PracRest.Test01Get -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

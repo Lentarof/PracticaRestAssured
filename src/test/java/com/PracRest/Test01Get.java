@@ -1,3 +1,4 @@
+package com.PracRest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -38,6 +39,7 @@ public class Test01Get {
 		.then()
 		.statusCode(200)
 		//si el equal se cambia a 9 u otro numero distinto de 7 deberia fallar
-		.body("data.id[0]", equalTo(7));
+		.body("data.id[0]", equalTo(7))
+		.log().all();
 	}
 }

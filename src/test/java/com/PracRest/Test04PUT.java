@@ -1,20 +1,20 @@
+package com.PracRest;
 
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import io.restassured.http.ContentType;
 
-public class Test05PATCH {
+public class Test04PUT {
 	//Test usando una Fake API de Internet
 	@Test
-	public void Test01forPatch() {
+	public void Test01forPut() {
 	
 		JSONObject request= new JSONObject();
-		request.put("name", "Abel");
-		request.put("job", "Content Manager");
+		request.put("name", "Efel");
+		request.put("job", "Teacher");
 		
 		System.out.println(request);
-
 		
 		given()
 			.header("Content-type", "application/json")
@@ -22,21 +22,21 @@ public class Test05PATCH {
 			.accept(ContentType.JSON)
 			.body(request.toJSONString())
 		.when()
-			.patch("https://reqres.in/api/users/2")
+			.put("https://reqres.in/api/users/2")
 		.then()
 		//.statusCode(201);
 			.statusCode(200)
 			.log().all();
 	}
-	//Test de una API Dummy local del archivo db 
+	//Test de una API Dummy local del archivo db.json 
 	@Test
-	public void test02forPatch() {
+	public void test02forPut() {
 		
 		JSONObject request = new JSONObject();
 		
-	//	request.put("firstName","Sheff");
-		request.put("lastName", "Rit");
-	//	request.put("subjectId", 2);
+		request.put("firstName","Sheff");
+		request.put("lastName", "Hani");
+		request.put("subjectId", 2);
 		
 		baseURI = "http://localhost:3000/";
 		
@@ -46,11 +46,11 @@ public class Test05PATCH {
 			.header("Content-type", "application/json")
 			.body(request.toJSONString())
 		.when()
-		//.patch("/subjects/3")
-			.patch("/users/4")
+			.put("/users/4")
 		.then()
-		//.statusCode(204)
 			.statusCode(200)
 			.log().all();
 	}
+	
+	
 }
