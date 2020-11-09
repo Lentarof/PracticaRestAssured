@@ -1,5 +1,6 @@
 # PracticaRestAssured
  Practica de API testing con Rest Assured
+ 
  Para hacer correr los Test se utilizo TestNG
  
  La Fake API utilizada es de la siguiente pagina https://reqres.in/ 
