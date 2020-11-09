@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 public class Test02Get {
-
+	//Test usando una Fake API de Internet
 	@Test
 	public void test01forGet() {
 		
@@ -17,7 +17,7 @@ public class Test02Get {
 		//log all sirve para ver todo el contenido de como llega el JSON
 		//.log().all();
 	}
-	
+	//Test de una API Dummy local del archivo db
 	@Test
 	public void test02forGet() {
 		
@@ -29,7 +29,7 @@ public class Test02Get {
 			.statusCode(200)
 			.log().all();
 	}
-	
+	//Test de una API Dummy local del archivo db
 	@Test
 	public void test03forGet() {
 		

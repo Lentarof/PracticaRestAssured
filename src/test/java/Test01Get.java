@@ -10,7 +10,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 
 import org.hamcrest.Matchers.*;
 public class Test01Get {
-
+	//Test usando una Fake API de Internet
 	@Test
 	void test_01() {
 		

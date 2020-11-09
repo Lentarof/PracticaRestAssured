@@ -3,23 +3,10 @@ import static io.restassured.RestAssured.*;
 import org.testng.annotations.Test;
 
 public class Test06DELETE {
-
+	//Test usando una Fake API de Internet
 	@Test
 	public void Test01forDelete() {
 	
-/*		JSONObject request= new JSONObject();
-		request.put("name", "Abel");
-		request.put("job", "Content Manager");
-		
-		System.out.println(request);
-
-		
-		given()
-			.header("Content-type", "application/json")
-			.contentType(ContentType.JSON)
-			.accept(ContentType.JSON)
-			.body(request.toJSONString())
-		.*/
 		when()
 			.delete("https://reqres.in/api/users/2")
 		.then()
@@ -27,6 +14,7 @@ public class Test06DELETE {
 			.statusCode(204)
 			.log().all();
 	}
+	//Test de una API Dummy local del archivo db 
 	@Test
 	public void  Test02forDelete() {
 		

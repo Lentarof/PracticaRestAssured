@@ -11,7 +11,7 @@ import io.restassured.http.Header;
 import static io.restassured.RestAssured.*;
 
 public class Test03POST {
-
+	//Test usando una Fake API de Internet
 	@Test
 	public void Test01forPost() {
 		//key es el string y Object es el valor cualquier tipo de dato
@@ -46,6 +46,7 @@ public class Test03POST {
 	//System.out.println(given().header("Content-type", "application/json"));
 	//System.out.println(given().body(request.toJSONString()).when().post("https://reqres.in/api/users").then().statusCode(201));
 	}
+	//Test de una API Dummy local del archivo db
 	@Test
 	public void test02forPost() {
 		

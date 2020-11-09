@@ -5,7 +5,7 @@ import static io.restassured.RestAssured.*;
 import io.restassured.http.ContentType;
 
 public class Test04PUT {
-
+	//Test usando una Fake API de Internet
 	@Test
 	public void Test01forPut() {
 	
@@ -27,7 +27,7 @@ public class Test04PUT {
 			.statusCode(200)
 			.log().all();
 	}
-	
+	//Test de una API Dummy local del archivo db 
 	@Test
 	public void test02forPut() {
 		

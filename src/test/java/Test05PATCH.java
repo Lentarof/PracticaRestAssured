@@ -5,7 +5,7 @@ import static io.restassured.RestAssured.*;
 import io.restassured.http.ContentType;
 
 public class Test05PATCH {
-
+	//Test usando una Fake API de Internet
 	@Test
 	public void Test01forPatch() {
 	
@@ -28,7 +28,7 @@ public class Test05PATCH {
 			.statusCode(200)
 			.log().all();
 	}
-	
+	//Test de una API Dummy local del archivo db 
 	@Test
 	public void test02forPatch() {
 		
@@ -46,8 +46,10 @@ public class Test05PATCH {
 			.header("Content-type", "application/json")
 			.body(request.toJSONString())
 		.when()
+		//.patch("/subjects/3")
 			.patch("/users/4")
 		.then()
+		//.statusCode(204)
 			.statusCode(200)
 			.log().all();
 	}
