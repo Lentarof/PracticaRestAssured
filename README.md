@@ -12,4 +12,6 @@
  "json-server --watch db.json"
  En este caso ya se tiene una creada por tanto se recomienda colocar el archivo "db.json" en el siguiente directorio
  C:\Users\nombredeusuario
+ para ingresar al servidor local se debe utilizar la siguiente ruta en el navegador web
+localhost:3000
  
